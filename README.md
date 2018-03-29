@@ -10,6 +10,13 @@ Insert the contents of `spectre.min.css` and optionally `spectre-icons.min.css` 
 
 Check out the [demo page](https://niutech.github.io/amp-spectre/) as a valid AMP HTML document.
 
+## Differences from Spectre.css
+
+ - Removed `!important` and `style=""` attributes
+ - Replaced `<img>` with `<amp-img>`
+ - Replaced `.video-responsive` with `<amp-youtube layout="responsive">`
+ - Replaced `style="width:10%;"` with `data-width="10%"` in `<div class="bar-item">`
+
 ## License
 
 Licensed under MIT License.
