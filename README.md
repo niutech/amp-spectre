@@ -15,7 +15,7 @@ Check out the [demo page](https://niutech.github.io/amp-spectre/) as a valid AMP
  - Removed `!important` and `style=""` attributes
  - Replaced `<img>` with `<amp-img>`
  - Replaced `.video-responsive` with `<amp-youtube layout="responsive">`
- - Replaced `style="width:10%;"` with `data-width="10%"` in `<div class="bar-item">`
+ - Replaced `<div class="bar"><div class="bar-item" style="width:10%;">` with `<table class="bar"><td class="bar-item" width="10%">`
 
 ## License
 
